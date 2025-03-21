@@ -177,7 +177,7 @@ edulearn-app/
 | ------ | ----- |
 | ![Screenshot 2025-03-22 001031](https://github.com/user-attachments/assets/58fc44d7-b7df-4e49-822a-eaecad70867a) | ![Screenshot 2025-03-22 000800](https://github.com/user-attachments/assets/9077dbcb-7df7-4af1-956d-7687ce81069a) |
 
-| 1 | 2 | 3 | 4 |
+| 📱 | 📱 | 📱 | 📱 |
 | -- | -- | -- | -- |
 | ![Screenshot 2025-03-22 002839](https://github.com/user-attachments/assets/6409b126-0ad3-4660-a190-82573da0b3f0) | ![Screenshot 2025-03-22 003538](https://github.com/user-attachments/assets/d6875b4b-5eb0-4ee6-8b5d-d2d46ad57395) | ![Screenshot 2025-03-22 003615](https://github.com/user-attachments/assets/121b512f-5d18-4cff-8a42-d9424b98bf36) | ![Screenshot 2025-03-22 003905](https://github.com/user-attachments/assets/6c0245f7-7c56-4467-9257-a7c208cea456) |
 
