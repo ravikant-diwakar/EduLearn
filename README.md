@@ -1,7 +1,7 @@
 # EduLearn
 
 ## Project Overview
-The **Book Store App** is a full-stack web application built with **MERN (MongoDB, Express.js, React, Node.js)** stack. This app allows users to browse books, sign up, log in, and purchase books. The frontend is developed using **React, Vite, Tailwind CSS**, while the backend is built with **Node.js, Express.js, and MongoDB**. Authentication is implemented using **bcrypt.js** for password hashing.
+The **EduLearn** is a full-stack web application built with **MERN (MongoDB, Express.js, React, Node.js)** stack. This app allows users to browse books, sign up, log in, and purchase books. The frontend is developed using **React, Vite, Tailwind CSS**, while the backend is built with **Node.js, Express.js, and MongoDB**. Authentication is implemented using **bcrypt.js** for password hashing.
 
 ## Features
 ### Frontend
@@ -39,7 +39,7 @@ Ensure you have the following installed on your system:
 3. Create a `.env` file and add the following variables:
    ```sh
    PORT=4001
-   MongoDBURI="mongodb://localhost:27017/bookStore"
+   MongoDBURI="mongodb://localhost:27017/edulearn"
    ```
 4. Start the backend server:
    ```sh
@@ -57,8 +57,28 @@ Ensure you have the following installed on your system:
      ```sh
      mongod
      ```
-  2. Create a new database called `bookStore`.
+  2. Create a new database called `edulearn`.
   3. Add collections `users` and `books`.
+
+#### Sample MongoDB Data
+- **Users Collection**
+  ```json
+  {
+    "fullname": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "$2a$10$VbUJh1ZrXsE3/jgEmS0SOuO"
+  }
+  ```
+- **Books Collection**
+  ```json
+  {
+    "name": "The Great Gatsby",
+    "price": 15.99,
+    "category": "Fiction",
+    "image": "gatsby.jpg",
+    "title": "A classic novel by F. Scott Fitzgerald"
+  }
+  ```
 
 ### Postman API Testing
 1. Open **Postman**.
@@ -92,7 +112,7 @@ Ensure you have the following installed on your system:
 
 ## Project Structure
 ```
-book-store-app/
+edulearn-app/
 ├── Backend/
 │   ├── index.js
 │   ├── .env
@@ -116,7 +136,7 @@ book-store-app/
 - **API Testing:** Postman
 
 ## Conclusion
-This **Book Store App** is a complete full-stack project that helps users browse books, authenticate, and manage their accounts. It follows best practices for authentication, API handling, and UI/UX design.
+This **EduLearn** app is a complete full-stack project that helps users browse books, authenticate, and manage their accounts. It follows best practices for authentication, API handling, and UI/UX design.
 
 For any queries, feel free to reach out. 🚀
 
