@@ -3,15 +3,18 @@
 ## Project Overview
 The **EduLearn** is a full-stack web application built with **MERN (MongoDB, Express.js, React, Node.js)** stack. This app allows users to browse books, sign up, log in, and purchase books. The frontend is developed using **React, Vite, Tailwind CSS**, while the backend is built with **Node.js, Express.js, and MongoDB**. Authentication is implemented using **bcrypt.js** for password hashing.
 
+> [!NOTE]
+> This project is designed for learning and practical implementation of MERN stack development.
+
 ## Features
 ### Frontend
-- User Authentication (Signup, Login, Logout)
-- Responsive UI using **Tailwind CSS**
-- Dark Mode Support
-- Book Listing Page
-- Course Browsing Feature
-- API Integration with **Axios**
-- Client-side Routing using **React Router**
+- [x] User Authentication (Signup, Login, Logout)
+- [x] Responsive UI using **Tailwind CSS**
+- [x] Dark Mode Support
+- [x] Book Listing Page
+- [x] Course Browsing Feature
+- [x] API Integration with **Axios**
+- [x] Client-side Routing using **React Router**
 
 ### Backend
 - User Authentication (Signup & Login with Hashed Passwords using **bcrypt.js**)
@@ -26,6 +29,9 @@ Ensure you have the following installed on your system:
 - **Node.js** (Download from: [https://nodejs.org/](https://nodejs.org/))
 - **MongoDB** (Download from: [https://www.mongodb.com/try/download/community](https://www.mongodb.com/try/download/community))
 - **Postman** (Download from: [https://www.postman.com/](https://www.postman.com/))
+
+> [!TIP]
+> Use **MongoDB Compass** to visually manage your database with ease.
 
 ### Backend Setup
 1. Open a terminal and navigate to the `Backend/` directory:
@@ -50,6 +56,9 @@ Ensure you have the following installed on your system:
    Server is listening on port 4001
    Connected to mongoDB
    ```
+
+> [!WARNING]
+> Ensure that **MongoDB** is running before starting the backend server to avoid connection errors.
 
 ### MongoDB Setup
 - **For Local MongoDB:**
@@ -80,6 +89,9 @@ Ensure you have the following installed on your system:
   }
   ```
 
+> [!IMPORTANT]
+> Use **bcrypt.js** to store passwords securely before inserting data into MongoDB.
+
 ### Postman API Testing
 1. Open **Postman**.
 2. Create a new **POST** request for user signup:
@@ -94,6 +106,9 @@ Ensure you have the following installed on your system:
      ```
 3. Click **Send** and verify the response.
 4. Similarly, test login and book APIs.
+
+> [!CAUTION]
+> Do not share your **JWT tokens** or **API keys** publicly to maintain security.
 
 ### Frontend Setup
 1. Open a terminal and navigate to the `Frontend/` directory:
@@ -117,15 +132,35 @@ edulearn-app/
 │   ├── index.js
 │   ├── .env
 │   ├── controller/
+│   │   ├── book.controller.js
+│   │   ├── user.controller.js
 │   ├── model/
+│   │   ├── book.model.js
+│   │   ├── user.model.js
 │   ├── route/
-│   └── package.json
-├── Frontend/
-│   ├── src/
-│   ├── public/
-│   ├── tailwind.config.js
+│   │   ├── book.route.js
+│   │   ├── user.route.js
 │   ├── package.json
-│   └── vite.config.js
+│   ├── package-lock.json
+├── Frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── courses/
+│   │   ├── home/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   ├── index.css
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── .gitignore
+│   ├── .eslintrc.cjs
+├── README.md
 ```
 
 ## Tech Stack
