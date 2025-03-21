@@ -169,13 +169,15 @@ edulearn-app/
 
 ## screenshot
 
-| Home |
+| Home Page |
 |------|
 | ![Screenshot 2025-03-21 233822](https://github.com/user-attachments/assets/2ce7aa92-d19a-4e9e-891b-a3b05ef0d305) |
 
-| Login | Signup |
+| Login Page | Signup Page |
 | ------ | ----- |
 | ![Screenshot 2025-03-22 001031](https://github.com/user-attachments/assets/58fc44d7-b7df-4e49-822a-eaecad70867a) | ![Screenshot 2025-03-22 000800](https://github.com/user-attachments/assets/9077dbcb-7df7-4af1-956d-7687ce81069a) |
+
+
 
 
 
