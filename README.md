@@ -1,4 +1,4 @@
-# EduLearn
+# EduLearn: Online Learning & Book Management Platform 
 
 ## Project Overview
 The **EduLearn** is a full-stack web application built with **MERN (MongoDB, Express.js, React, Node.js)** stack. This app allows users to browse books, sign up, log in, and purchase books. The frontend is developed using **React, Vite, Tailwind CSS**, while the backend is built with **Node.js, Express.js, and MongoDB**. Authentication is implemented using **bcrypt.js** for password hashing.
