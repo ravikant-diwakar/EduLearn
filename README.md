@@ -167,7 +167,7 @@ edulearn-app/
 - **Authentication:** bcrypt.js
 - **API Testing:** Postman
 
-## screenshot
+## screenshots
 
 | Home Page |
 |------|
