@@ -70,19 +70,19 @@ Ensure you have the following installed on your system:
 - **Users Collection**
   ```json
   {
-    "fullname": "John Doe",
-    "email": "johndoe@example.com",
+    "fullname": "Ravikant",
+    "email": "ravikant@gmail.com",
     "password": "$2a$10$VbUJh1ZrXsE3/jgEmS0SOuO"
   }
   ```
 - **Books Collection**
   ```json
   {
-    "name": "The Great Gatsby",
-    "price": 15.99,
-    "category": "Fiction",
-    "image": "gatsby.jpg",
-    "title": "A classic novel by F. Scott Fitzgerald"
+    "name": " Data Structures and Algorithmic Analysis in C++",
+    "price": 1599,
+    "category": "DSA",
+    "image": "images/dsa.jpg",
+    "title": "Introduction to Algorithms by Thomas Cormen"
   }
   ```
 
@@ -96,8 +96,8 @@ Ensure you have the following installed on your system:
    - Body (JSON):
      ```json
      {
-       "fullname": "John Doe",
-       "email": "johndoe@example.com",
+       "fullname": "Ravikant",
+       "email": "ravikant@gmail.com",
        "password": "password123"
      }
      ```
